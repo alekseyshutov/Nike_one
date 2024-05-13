@@ -1,0 +1,110 @@
+header{
+    background-image: linear-gradient(to right bottom gray, black);
+    height: 100px;
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+}
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 20px;
+    font-size: 10px;
+}
+
+.life{
+    display: flex;
+}
+
+p{
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+}
+
+.life2{
+   
+   position: absolute;
+   right: 65px;
+   top: 300px;
+}
+
+.life3{
+    display: flex;
+}
+
+.product{
+    position: absolute;
+    top: 970;
+}
+
+.product nav a{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+    width: 110;
+}
+
+.product nav a:hover{
+    background-color: rgb(229, 93, 93);
+    transition: 0,10s;
+}
+
+.phone{
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material{
+    display: flex;
+    justify-content: right;
+    top: 100px;
+}
+
+.group{
+    position: absolute;
+    right: 450px;
+    top: 35px;
+}
+
+.shop{
+    position: absolute;
+    top: 25px;
+    right: 65px;
+}
+
+.shop_text{
+    position: absolute;
+    top: 65px;
+    right: 60px;
+    font-size: 7px;
+}

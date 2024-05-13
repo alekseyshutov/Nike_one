@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>кросовки Nike|Nike.one</title>
+  </head>
+    <body>
+        <header>
+          <div class="nav">
+            <nav>
+              <img src="logoo.png.png" width="70px" height="70px">
+              <a href="">Таблица размеров</a>
+              <a href="">Оплата и Достака</a>
+              <a href="">Обмен и возврат</a>
+              <a href="">Контакты</a>
+            </nav>
+          </div>
+          <div class="group">
+            <img src="group.png" width="385px" height="65px">
+          </div>
+          <div class="shop">
+           <img src="shjp.png" width="50" height="50">
+          </div>
+          <div class="shop_text">
+          <h1>корзина</h1>
+          </div>
+             </header>
+             <main>
+              <div class="life">
+                <img src="Untitled.png" width="1500px" height="180px">
+              </div>
+              <p>Популярные товары</p>
+              <div class="life3">
+                <img src="United2.png" width="350px" height="550px">
+              </div>
+              <div class="life2">
+                <img src="paint.png" width="1000" height="550">
+              </div>
+              <div class="phone">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                </svg>
+              </div>
+              <div class="material">
+                <img src="png.png" width="1100px" height="290px">
+              </div>
+             </main>
+             <footer>
+              <div class="product">
+              <nav>
+                <a href="">РАСПРОДАЖА</a>
+              </nav>
+              </div>
+              <div class="footer">
+                <img src="fotter.png.png" width="1480px" height="535px">
+              </div>
+             </footer>
+             <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+             <script>
+
+              let phone_anime = anime({
+              targets: '.phone',
+              duration: 500,
+               rotate: 360,
+               borderRadius: '5px',
+               easing: 'linear',
+               autostart: false,
+               })
+
+        document.querySelector('.phone').
+        addEventListener('click', phone_anime.play)
+
+             </script>
+    </body>
+</html>
